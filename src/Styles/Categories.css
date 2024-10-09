@@ -1,0 +1,97 @@
+.category-container {
+    margin: 30px 60px;
+}
+
+.category-div {
+    width: 100%;
+}
+
+.category-div div img {
+    width: 85%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.category-div div {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.category-div div .para {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 50px;
+    width: 85%;
+    height: 99%;
+    text-align: center;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.para h1 {
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.explore {
+    color: rgb(0, 47, 255);
+    font-size: 25px;
+}
+
+.para h3 {
+    padding-top: 10px;
+}
+
+.main-para {
+    padding: 15px 0 20px 0;
+}
+
+.para h3:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:885px) {
+    .category-div div img {
+        width: 100%;
+    }
+
+    .category-div div .para {
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .category-container {
+        margin: 30px;
+    }
+
+    .category-div div img {
+        height: 410px;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .category-div div .para p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-height: 17rem;
+        transition: max-height 0.3s ease;
+    }
+
+    .category-div div .para h1 {
+        font-size: 1.5rem;
+    }
+
+    .head {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,184 @@
+.culture-content {
+    margin: 30px 40px 30px 60px;
+}
+
+.culture-image img {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.culture-image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5.1rem;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 10;
+    font-family: "Abril Fatface", serif;
+}
+
+.culture-content h1 {
+    padding-bottom: 20px;
+}
+
+.culture-content p {
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.explore-content {
+    position: relative;
+}
+
+.explore-image {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    z-index: -99;
+    width: 100%;
+}
+
+.explore-image img {
+    width: 16%;
+    height: 435px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 6px;
+    z-index: 0;
+    box-shadow: -15px 12px 20px -18px;
+}
+
+.explore-text h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    border: solid 2px white;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+
+.text {
+    color: white;
+}
+
+.text:hover {
+    color: rgba(0, 81, 255, 0.699);
+    transform: scale(1.5s);
+}
+
+.cultural-india {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.cultural-india .para {
+    width: 60%;
+}
+
+.cultural-india .image {
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+}
+
+.cultural-india img {
+    width: 350px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:900px) {
+    .cultural-india {
+        flex-direction: column;
+    }
+
+    .cultural-india .para {
+        width: 100%;
+    }
+
+    .cultural-india .image {
+        width: 100%;
+        margin: 0 10px 20px 0;
+    }
+
+    .explore-image img {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .culture-content {
+        margin: 20px;
+    }
+
+    .explore-image img {
+        height: 390px;
+    }
+
+    .explore-content {
+        margin: 0px 30px 20px 30px;
+        height: 420px;
+    }
+
+    .explore-content h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:555px) {
+    .culture-image img {
+        height: 35vh;
+    }
+
+    .culture-image h1 {
+        font-size: 3rem;
+        top: 25%;
+    }
+
+    .explore-image img {
+        height: 230px;
+        width: 22%;
+    }
+
+    .explore-content {
+        height: 250px;
+    }
+
+    .explore-content h2 {
+        font-size: 3rem;
+    }
+
+    .cultural-india .image {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .explore-image img {
+        height: 150px;
+        width: 23%;
+    }
+
+    .explore-content {
+        height: 170px;
+    }
+
+    .explore-content h2 {
+        font-size: 2.1rem;
+    }
+
+    .cultural-india img {
+        width: 260px;
+    }
+}

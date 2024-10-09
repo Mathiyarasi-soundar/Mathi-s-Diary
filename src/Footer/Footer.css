@@ -1,0 +1,74 @@
+.footer-container {
+    padding: 2rem 4rem;
+    background-color: black;
+}
+
+.footer-top h1 {
+    color: white;
+    cursor: default;
+    z-index: 0;
+    width: 100%;
+    display: block;
+}
+
+.footer-container .footer-logo p {
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid;
+}
+
+.footer-bottom i {
+    color: white;
+    font-size: 1.3rem;
+    margin: 0 0.5rem 0.8rem 0;
+}
+
+.footer-bottom a:hover,
+i:hover {
+    color: rgba(22, 194, 247, 0.856);
+}
+
+.footer-bottom {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-bottom div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 1.5rem .5rem;
+    letter-spacing: 1px;
+    color: white;
+    cursor: default;
+}
+
+.footer-bottom a {
+    color: white;
+    padding-bottom: 0.3rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:850px) {
+    .footer-container {
+        padding: 3rem 2rem 1rem 2rem;
+    }
+
+    .footer-bottom div {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer-bottom div {
+        width: 100%;
+    }
+}
