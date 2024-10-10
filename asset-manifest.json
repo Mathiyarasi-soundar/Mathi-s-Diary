@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a94062c.css",
+    "main.js": "/static/js/main.74ae282b.js",
+    "static/media/indian-cuisine.png": "/static/media/indian-cuisine.3bd1debf12496e2fdb75.png",
+    "static/media/indian-dance.jpg": "/static/media/indian-dance.18c7e22f9fed600568a7.jpg",
+    "static/media/indian-weddings.jpg": "/static/media/indian-weddings.6c5f02b83938b52f5142.jpg",
+    "static/media/indian-clothings.png": "/static/media/indian-clothings.e8f4dad3b7c2afce007d.png",
+    "static/media/indian-cuisine1.png": "/static/media/indian-cuisine1.103f32893d4b64a3ee8d.png",
+    "static/media/I-culture8.jfif": "/static/media/I-culture8.187f77afb87696aed57f.jfif",
+    "static/media/indian-clothings1.png": "/static/media/indian-clothings1.b3a224b171d02d87e60d.png",
+    "static/media/indian-festivals.jpg": "/static/media/indian-festivals.22e8e50f2ccade972cac.jpg",
+    "static/media/indian-weddings1.jpg": "/static/media/indian-weddings1.2b26a5b1c6edb499550f.jpg",
+    "static/media/indian-festivals1.jpg": "/static/media/indian-festivals1.023ec2f931c4509ca502.jpg",
+    "static/media/indian-dance1.jpg": "/static/media/indian-dance1.cdf28440ffe46dfa5b6c.jpg",
+    "static/media/logo.png": "/static/media/logo.e0182efccca8aefb5e3b.png",
+    "static/media/cultural-india.jfif": "/static/media/cultural-india.5dc349995259b83c63cf.jfif",
+    "index.html": "/index.html",
+    "main.5a94062c.css.map": "/static/css/main.5a94062c.css.map",
+    "main.74ae282b.js.map": "/static/js/main.74ae282b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a94062c.css",
+    "static/js/main.74ae282b.js"
+  ]
+}
