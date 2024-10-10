@@ -74,4 +74,7 @@
     .contents div:nth-child(even){
         background-color: white;
     }
+    .contents img{
+        height: 200px;
+    }
 }
