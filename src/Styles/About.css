@@ -1,33 +1,39 @@
-.about-container{
-    padding: 70px 35px 30px 40px;
+.about-container {
+    padding: 70px 35px 30px 50px;
 }
-.about-logo{
+
+.about-logo {
     display: flex;
 }
-.about-logo img{
+
+.about-logo img {
     width: 70px;
     height: 70px;
     padding-right: 10px;
 }
-.about-content p{
-letter-spacing: 1px;
-margin-bottom: 20px;
-font-size: 1.1rem;
-line-height: 30px;
+
+.about-content p {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 30px;
 }
-.about-content h2{
+
+.about-content h2 {
     margin-bottom: 20px;
 }
-.about-logo h1{
+
+.about-logo h1 {
     padding-bottom: 30px;
     padding-top: 10px;
 }
-@media screen and (max-width:555px) {
-   .about-container{
-    padding: 70px 20px 10px 20px;
-   } 
-   .about-logo h1{
-    font-size: 1.5rem;
-   }
-}
 
+@media screen and (max-width:555px) {
+    .about-container {
+        padding: 70px 20px 10px 20px;
+    }
+
+    .about-logo h1 {
+        font-size: 1.5rem;
+    }
+}

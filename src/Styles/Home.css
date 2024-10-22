@@ -10,7 +10,7 @@
 
 .culture-image h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -138,12 +138,12 @@
 
 @media screen and (max-width:555px) {
     .culture-image img {
-        height: 30vh;
+        height: 35vh;
     }
 
     .culture-image h1 {
         font-size: 3rem;
-        top: 20%;
+        top: 22%;
     }
 
     .explore-image img {
