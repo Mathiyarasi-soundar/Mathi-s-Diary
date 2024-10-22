@@ -64,7 +64,7 @@
     transform: translate(-50%, -50%);
     font-size: 5rem;
     border: solid 2px white;
-    z-index: 1000;
+    z-index: 0;
     background-color: rgba(255, 255, 255, 0.185);
 }
 
