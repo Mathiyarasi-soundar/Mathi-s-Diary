@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mathi-diary/static/css/main.2dc86b06.css",
+    "main.css": "/mathi-diary/static/css/main.b8ace894.css",
     "main.js": "/mathi-diary/static/js/main.d9584b58.js",
     "static/media/indian-cuisine.png": "/mathi-diary/static/media/indian-cuisine.3bd1debf12496e2fdb75.png",
     "static/media/indian-dance.jpg": "/mathi-diary/static/media/indian-dance.18c7e22f9fed600568a7.jpg",
@@ -91,11 +91,11 @@
     "static/media/logo.png": "/mathi-diary/static/media/logo.e0182efccca8aefb5e3b.png",
     "static/media/cultural-india.jfif": "/mathi-diary/static/media/cultural-india.5dc349995259b83c63cf.jfif",
     "index.html": "/mathi-diary/index.html",
-    "main.2dc86b06.css.map": "/mathi-diary/static/css/main.2dc86b06.css.map",
+    "main.b8ace894.css.map": "/mathi-diary/static/css/main.b8ace894.css.map",
     "main.d9584b58.js.map": "/mathi-diary/static/js/main.d9584b58.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dc86b06.css",
+    "static/css/main.b8ace894.css",
     "static/js/main.d9584b58.js"
   ]
 }
