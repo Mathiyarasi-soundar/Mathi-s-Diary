@@ -138,12 +138,12 @@
 
 @media screen and (max-width:555px) {
     .culture-image img {
-        height: 35vh;
+        height: 30vh;
     }
 
     .culture-image h1 {
         font-size: 3rem;
-        top: 25%;
+        top: 20%;
     }
 
     .explore-image img {
@@ -159,9 +159,6 @@
         font-size: 3rem;
     }
 
-    .cultural-india .image {
-        text-align: start;
-    }
 }
 
 @media screen and (max-width:450px) {
