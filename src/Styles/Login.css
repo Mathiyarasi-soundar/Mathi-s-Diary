@@ -8,13 +8,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 2.5rem;
+    top: 7rem;
     margin: auto;
     background-color: black;
     margin-bottom: 10px;
     color: black;
     width: 500px;
-    height: 90vh;
+    height: 75%;
 }
 
 .login-header {
@@ -23,7 +23,7 @@
     align-items: center;
     gap: 9px;
     width: 100;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .login-text {
@@ -42,7 +42,7 @@
 .login-input {
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 20px auto;
     width: 380px;
     height: 80px;
     background: #cec6c6cb;
@@ -67,6 +67,7 @@
     padding-left: 62px;
     color: white;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .forgot-password span {
@@ -104,7 +105,6 @@
 @media screen and (max-width:555px) {
     .login-section {
         width: 85%;
-        height: 75vh;
     }
 
     .login-input {
